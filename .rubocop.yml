@@ -26,7 +26,7 @@ Metrics/CyclomaticComplexity:
 
 Style/Documentation:
   Enabled: false
-Style/ClassAndModuleChildren:
+Layout/ClassAndModuleChildren:
   Enabled: false
 Style/CaseEquality:
   Enabled: false
