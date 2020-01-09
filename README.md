@@ -30,9 +30,9 @@ to use this lint on your css file you should
 
 -open ```bin/main.rb```
 
--navigate to line 5 and change path of the variable ```file``` to the path of your css file like: ```file = './file.css'```
+-navigate to line ```5``` and change path of the variable ```file``` to the path of your css file like: ```file = './file.css'```
 
 -execute the lint you should typing ```ruby bin/main.rb``` in your terminal
 
-  *it will output the warnings if your css file contains any
+  *it will output the warnings if your css file contains any </br>
   *it won't output any if your css file passes the test
