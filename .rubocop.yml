@@ -8,7 +8,7 @@ AllCops:
   DisplayCopNames: true
 
 Metrics/LineLength:
-  Enabled: false
+  Max: 120
 Metrics/MethodLength:
   Include: ["app/controllers/*"]
   Max: 20
@@ -18,15 +18,23 @@ Metrics/AbcSize:
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
+  ExcludedMethods: ['describe']
+Metrics/PerceivedComplexity:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/CaseEquality:
+  Enabled: false
+Style/IfUnlessModifier:
   Enabled: false
 Metrics/ModuleLength:
-  Max: 110
-
-Layout/Documentation:
   Enabled: false
-Layout/ClassAndModuleChildren:
-  Enabled: false
-Layout/WhileUntilModifier:
+Style/RedundantSelf:
   Enabled: false
 
 Layout/AlignHash:
