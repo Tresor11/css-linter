@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 module Bot
   def self.chek1(str)
     if str.match(/.+\s{1}+{/)
-      puts "There should be a new line after '{' on line #{$i}" unless str.match(/.+\s{1}+\R/)
+      puts "There should be a new line after '{' on line #{$i}" unless str.match(/.+\s{1}+$/)
     end
   end
 
@@ -21,7 +23,7 @@ module Bot
     end
   end
 
-  def run(num,arg)
+  def run(num, arg)
     case num
     when 1
       Bot.chek1(arg)
