@@ -36,3 +36,7 @@ to use this lint on your css file you should
 
   *it will output the warnings if your css file contains any </br>
   *it won't output any if your css file passes the test
+  
+  <hr>
+  
+  contact: @Tresor11
