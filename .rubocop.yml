@@ -22,11 +22,11 @@ Metrics/BlockLength:
 Metrics/ModuleLength:
   Max: 110
 
-Style/Documentation:
+Layout/Documentation:
   Enabled: false
-Style/ClassAndModuleChildren:
+Layout/ClassAndModuleChildren:
   Enabled: false
-Style/WhileUntilModifier:
+Layout/WhileUntilModifier:
   Enabled: false
 
 Layout/AlignHash:
