@@ -24,6 +24,10 @@ Metrics/BlockLength:
 
 Style/Documentation:
   Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Style/GuardClause:
+  Enabled: false
 Style/ClassAndModuleChildren:
   Enabled: false
 Style/MutableConstant:
@@ -33,4 +37,3 @@ Layout/ExtraSpacing:
 Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
-  
