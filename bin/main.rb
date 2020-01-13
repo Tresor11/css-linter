@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
 require_relative '../lib/lint'
-
-file = './file.css'
+puts "welcome to the Css linter please enter the path to your css file"
+file = gets.chomp
 f = File.open(file, 'r')
-Error.new(f)
+start=Error.new(f)
+start.run
+start.show
 f.close
