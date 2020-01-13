@@ -4,5 +4,5 @@ require_relative '../lib/lint'
 
 file = './file.css'
 f = File.open(file, 'r')
-Test.new(f)
+Error.new(f)
 f.close

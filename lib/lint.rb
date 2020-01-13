@@ -1,27 +1,39 @@
 # frozen_string_literal: true
 
-require_relative 'module'
-include Bot
+require_relative 'tests'
+include Tests
 
-class Test
-  attr_reader :errors
-  attr_accessor :i
+class Error
+  attr_writer :errors
+  attr_accessor :line
   def initialize(str)
     @temp = str
-    $i = 1
-    checks
+    @line = 1
+    @errors = []
+    run
+    show
   end
 
-  def engine(code)
-    (1..5).each do |i|
-      Bot.run(i, code)
-    end
-  end
-
-  def checks
+  def run
     @temp.each_line do |x|
-      engine(x)
-      $i += 1
+      test_cases(x)
+      @line += 1
     end
+  end
+
+  def show
+    @errors.each do |x|
+      puts x
+    end
+  end
+
+  private
+
+  def test_cases(str)
+    @errors << "There should be a new line after '{' on line: #{@line}" if Tests.new_line_check1(str)
+    @errors << "There shoul a space before '{' on line: #{@line}" if Tests.space_check1(str)
+    @errors << "The line should start with a sapce on line: #{@line}" if Tests.space_check2(str)
+    @errors << "The correct assignment operator should be used on line: #{@line}" if Tests.assignment_check(str)
+    @errors << "The line should end with a ';' on line: #{@line}" if Tests.ending_line_check(str)
   end
 end
