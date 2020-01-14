@@ -26,6 +26,7 @@ the linter implemented in this repository can:
 
 ## usage guide
 
+- to tun the Rspec validation type ```rspec``` in the terminal
 
 -run the checks by typing  ```ruby bin/main.rb``` in your terminal
 
