@@ -31,7 +31,7 @@ the linter implemented in this repository can:
 
 -you will be asked to provide the path to your css file ex: ```./file.css```
 
-### after that your console should:
+###### after that your console should:
 
   *output the warnings if your css file contains any </br>
   *don't provide any output if your css file passes the test
