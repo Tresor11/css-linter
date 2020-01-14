@@ -31,11 +31,49 @@ the linter implemented in this repository can:
 
 -you will be asked to provide the path to your css file ex: ```./file.css```
 
-###### after that your console should:
+#### after that your console should:
 
   *output the warnings if your css file contains any </br>
   *don't provide any output if your css file passes the test
   
+  <hr>
+  
+## Example of good and bad code
+
+#### Good:
+```
+.h2,
+h2{
+  font-weight: 700;
+  font-size: 38px;
+  padding: 10px 0 10px 0
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6f23ff;
+  text-align: center;
+}
+
+```
+
+  <hr>
+#### bad:
+```
+.h2,
+h2{
+font-weight: 700;
+  font-size: 38px;
+  padding: 10px 0 10px 0
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color #6f23ff;
+  text-align: center;
+}
+
+```
   <hr>
   
   contact: @Tresor11
