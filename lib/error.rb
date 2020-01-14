@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 require_relative 'tests'
-include Tests
 
 class Error
+  include Tests
   attr_writer :errors
   attr_accessor :line
   def initialize(str)
