@@ -26,16 +26,15 @@ the linter implemented in this repository can:
 
 ## usage guide
 
-to use this lint on your css file you should
 
--open ```bin/main.rb```
+-run the checks by typing  ```ruby bin/main.rb``` in your terminal
 
--navigate to line ```5``` and change path of the variable ```file``` to the path of your css file like: ```file = './file.css'```
+-you will be asked to provide the path to your css file ex: ```./file.css```
 
--execute the lint you should typing ```ruby bin/main.rb``` in your terminal
+**after that your console should:
 
-  *it will output the warnings if your css file contains any </br>
-  *it won't output any if your css file passes the test
+  *output the warnings if your css file contains any </br>
+  *don't provide any output if your css file passes the test
   
   <hr>
   
