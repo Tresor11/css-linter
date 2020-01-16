@@ -1,3 +1,11 @@
 # frozen_string_literal: true
 
-require '/lib/logic'
+require_relative '../lib/error'
+puts "-------------welcome to the Css linter please enter the path to your css file----------------"
+file = gets.chomp
+puts `clear`
+f = File.open(file, 'r')
+start=Error.new(f)
+start.run
+start.show
+f.close

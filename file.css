@@ -1,5 +1,12 @@
-h1 {
-  align-items: center;
-  justify-content: center;
-  text-emphasis: none;
+.h2,
+h2{
+font-weight: 700;
+  font-size: 38px;
+  padding: 10px 0 10px 0
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color #6f23ff;
+  text-align: center;
 }
