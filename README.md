@@ -19,18 +19,18 @@ the linter implemented in this repository can:
 
 ## getting started
 
--first clone this repo by typing ```git clone https://github.com/Tresor11/css-linter.git``` in your terminal
+- first clone this repo by typing ```git clone https://github.com/Tresor11/css-linter.git``` in your terminal
 
--then navigate to the directory by typing ```cd css-lint``` in your terminal
+- then navigate to the directory by typing ```cd css-lint``` in your terminal
 <hr> </br>
 
 ## usage guide
 
-- to tun the Rspec validation type ```rspec``` in the terminal
+- run the tests by typing ```rspec``` in the terminal
 
--run the checks by typing  ```ruby bin/main.rb``` in your terminal
+- run the linter by typing  ```ruby bin/main.rb``` in the terminal
 
--you will be asked to provide the path to your css file ex: ```./file.css```
+- you will be asked to provide the path to your css file ex: ```./file.css```
 
 #### after that your console should:
 
@@ -75,6 +75,12 @@ font-weight: 700;
 }
 
 ```
+  <hr>
+  
+  ## Testing
+
+- run the tests by typing ```rspec``` in the terminal
+
   <hr>
   
   contact: @Tresor11
