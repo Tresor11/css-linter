@@ -26,8 +26,6 @@ the linter implemented in this repository can:
 
 ## usage guide
 
-- run the tests by typing ```rspec``` in the terminal
-
 - run the linter by typing  ```ruby bin/main.rb``` in the terminal
 
 - you will be asked to provide the path to your css file ex: ```./file.css```
@@ -78,6 +76,12 @@ font-weight: 700;
   <hr>
   
   ## Testing
+
+- run the tests by typing ```rspec``` in the terminal
+
+  <hr>
+  
+  ## Contributing
 
 - run the tests by typing ```rspec``` in the terminal
 
