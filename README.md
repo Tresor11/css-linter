@@ -1,6 +1,6 @@
 # CSS-linter
 
-This repository contains an inplementation of a css linter for beginer using ruby <hr> </br>
+This repository contains an inplementation of a CSS linter for beginer using Ruby <hr> </br>
 
 ## features
 
