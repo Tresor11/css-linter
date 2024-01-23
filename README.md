@@ -4,7 +4,7 @@ This repository contains an inplementation of a CSS linter for beginer using Rub
 
 ## features
 
-the linter implemented in this repository can:
+this linter has the following features:
 
 - output warnings if the indentation is not correct
 
