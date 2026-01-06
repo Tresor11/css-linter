@@ -1,20 +1,20 @@
 # CSS-linter
 
-This repository contains an inplementation of a CSS linter for beginer using Ruby. <hr> </br>
+This repository contains an implementation of a CSS linter for beginners using Ruby. <hr> </br>
 
 ## features
 
-this linter has the following features:
+This linter has the following features:
 
 - output warnings if the indentation is not correct
 
-- output warnings if the correct assigmeht operator is not used
+- output warnings if the correct assignment operator is not used
 
 - output warnings if the line is not properly ended
 
 - output warnings if the used css-poperty is not of the correct format
 
-### notice:this lint will only check for the format of the css-property but it can't determine if it actually exist or not
+### notice: this lint will only check for the format of the css-property but it can't determine if it actually exists or not
 <hr> </br>
 
 ## getting started
@@ -30,7 +30,7 @@ this linter has the following features:
 
 - you will be asked to provide the path to your css file ex: ```./file.css```
 
-#### after that your console should:
+#### after that, your console should:
 
   *output the warnings if your css file contains any </br>
   *don't provide any output if your css file passes the test
